@@ -1,0 +1,472 @@
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td,
+                    article,
+                    aside,
+                    canvas,
+                    details,
+                    embed,
+                    figure,
+                    figcaption,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    output,
+                    ruby,
+                    section,
+                    summary,
+                    time,
+                    mark,
+                    audio,
+                    video {
+                        margin: 0;
+                        padding: 0;
+                        border: inherit;
+                        font-size: 100%;
+                        font: inherit;
+                        vertical-align: baseline;
+                    }
+
+                    article,
+                    aside,
+                    details,
+                    figcaption,
+                    figure,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    section {
+                        display: block;
+                    }
+
+                    body {
+                        line-height: 1;
+                    }
+
+                    ol,
+                    ul {
+                        list-style: none;
+                    }
+
+                    blockquote,
+                    q {
+                        quotes: none;
+                    }
+
+                    blockquote:before,
+                    blockquote:after,
+                    q:before,
+                    q:after {
+                        content: '';
+                        content: none;
+                    }
+
+                    table {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                    }
+
+                    /* Clear Fix */
+                    .cf:before,
+                    .cf:after {
+                        content: " ";
+                        /* 1 */
+                        display: table;
+                        /* 2 */
+                    }
+
+                    .cf:after {
+                        clear: both;
+                    }
+
+                    .cf {
+                        zoom: 1;
+                    }
+
+
+
+
+
+                    /* -------------------------------------------------------------------------------- */
+
+                    .all {
+                        width: 1366px;
+                        /* 1366 */
+                        height: 768px;
+                        margin: auto;
+                        background-color: white;
+                    }
+
+                    /* Baris Satu */
+                    .header {
+                        width: 1366px;
+                        background-color: red;
+                        margin: auto;
+                    }
+
+                    .header img {
+                        width: 160px;
+                        height: 80px;
+                        float: left;
+                        padding: 10px 40px 10px 80px;
+                    }
+
+                    .judul {
+                        width: 1086px;
+                        float: right;
+                    }
+
+                    .judul h1 {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 35px;
+                        text-align: center;
+                        padding-right: 40px;
+                        padding-top: 20px;
+                    }
+
+                    .judul p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 31px;
+                        text-align: center;
+                        padding-right: 40px;
+                        padding-bottom: 20px;
+                    }
+
+                    /* Baris dua*/
+                    .barisdua {
+                        width: 1356px;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+
+                    .stokdarah {
+                        width: 470px;
+                        height: 44px;
+                        background-color: red;
+                        padding-top: 10px;
+                        margin-right: 5px;
+                        float: left;
+                        box-sizing: border-box;
+                    }
+
+                    .stokdarah p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 25px;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+
+                    .isistokdarah {
+                        width: 470px;
+                        height: 300px;
+                        padding: 10px 40px 10px;
+                        background-color: white;
+                        box-sizing: border-box;
+                        border-left: 1px solid lightgray;
+                        border-right: 1px solid lightgray;
+                        border-bottom: 1px solid lightgray;
+                    }
+
+                    .tableisidarah {
+                        width: 240px;
+                        background-color: white;
+                        box-sizing: border-box;
+                        padding: 10px;
+                        margin: auto;
+                    }
+
+                    .tabeltidarah {
+                        height: 45px;
+                        text-align: center;
+                        line-height: 45px;
+                        background-color: red;
+                        color: white;
+                        font-size: 30px;
+                    }
+
+                    .tabelgoldar {
+                        width: 50px;
+                    }
+
+                    .tabelduadua {
+                        text-align: center;
+                        line-height: 57px;
+                        font-size: 20px;
+                    }
+
+                    .video {
+                        width: 584px;
+                        height: 345px;
+                        float: left;
+                        border: 1px solid #252525;
+                        box-sizing: border-box;
+
+                    }
+
+                    .medsospmi {
+                        float: left;
+                        width: 292px;
+                        background-color: red;
+                        padding-top: 10px;
+                        margin-left: 5px;
+                    }
+
+                    .medsospmi p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 25px;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+
+                    .isimedsospmi {
+                        width: 292px;
+                        height: 300px;
+                        background-color: white;
+                        box-sizing: border-box;
+                        border-right: 1px solid lightgray;
+                        border-left: 1px solid lightgray;
+                        border-bottom: 1px solid lightgray;
+                        overflow: auto;
+                    }
+
+                    .isimedsospmi p {
+                        font-size: 5px;
+                        color: black;
+                    }
+
+                    /* Baris ketiga */
+                    .baristiga {
+                        width: 1356px;
+                        margin-top: 5px;
+                        margin-right: 5px;
+                        overflow: hidden;
+                        margin-left: 5px;
+                        box-sizing: border-box;
+                    }
+
+                    .jadwalmu {
+                        width: 469px;
+                        background-color: red;
+                        padding-top: 10px;
+                        margin-right: 6px;
+                        float: left;
+                        box-sizing: border-box;
+                        clear: left;
+                    }
+
+                    .jadwalmu p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 25px;
+                        text-align: center;
+                        padding-bottom: 10px;
+
+                    }
+
+                    .tabel1 {
+                        width: 469px;
+                        height: 220px;
+                        background-color: white;
+                        box-sizing: border-box;
+                        border-right: 1px solid lightgray;
+                        border-left: 1px solid lightgray;
+                        border-bottom: 1px solid lightgray;
+                        padding: 10px;
+                        overflow: hidden;
+                    }
+
+                    .tabell1 .no {
+                        width: 20px;
+                    }
+
+                    .tabell1 .tempat {
+                        width: 50px;
+                    }
+
+                    .tabell1 .peruntukan {
+                        width: 80px;
+                    }
+
+                    .tabell1 .tglkeg {
+                        width: 80px;
+                    }
+
+                    .tabell1 .jammulai,
+                    .jamselesai {
+                        width: 100px;
+                    }
+
+                    .tabell1 .pic {
+                        width: 50px;
+                    }
+
+                    .no,
+                    .tempat,
+                    .peruntukan,
+                    .tglkeg,
+                    .jammulai,
+                    .jamselesai,
+                    .tglmulai,
+                    .tglselesai,
+                    .pic,
+                    .kegiatan_,
+                    .personil {
+                        text-align: center;
+                        background-color: red;
+                        color: white;
+                    }
+
+                    .tabell1,
+                    .tabell2,
+                    .tableisidarah {
+                        height: 50px;
+                        line-height: 25px;
+                        font-size: 13px;
+                        border: 1px solid grey;
+                    }
+
+                    .kegiatan {
+                        width: 881px;
+                        background-color: red;
+                        padding-top: 10px;
+                        float: left;
+                        box-sizing: border-box;
+                    }
+
+                    .kegiatan p {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 25px;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+
+                    .tabel2 {
+                        width: 881px;
+                        height: 220px;
+                        background-color: white;
+                        box-sizing: border-box;
+                        border-right: 1px solid lightgray;
+                        border-left: 1px solid lightgray;
+                        border-bottom: 1px solid lightgray;
+                        padding: 10px;
+                        margin: auto;
+                        overflow: hidden;
+                    }
+
+                    .tabell2 .no {
+                        width: 20px;
+                    }
+
+                    .tabell2 .kegiatan_ {
+                        width: 300px;
+                    }
+
+                    .tabell2 .tempat {
+                        width: 200px;
+                    }
+
+                    .tabell2 .tglmulai {
+                        width: 100px;
+                    }
+
+                    .tabell2 .personil {
+                        width: 250px;
+                    }
+
+                    .tglselesai {
+                        width: 110px;
+                        /* background-color: red;
+                        color: white;
+                        text-align: center; */
+                    }
+
+                    .no_ {
+                        text-align: center;
+                    }
+
+
+                    /* BARIS 4 */
+                    .rtp {
+                        width: 1366px;
+                        height: 21px;
+                        background-color: red;
+                        margin: auto;
+                        margin-top: 5px;
+                    }
+
+                    .rtp {
+                        color: white;
+                        font-weight: normal;
+                        font-size: 20px;
+                        text-align: center;
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                    }
