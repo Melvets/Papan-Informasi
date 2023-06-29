@@ -1,4 +1,4 @@
-<h1 align="center"> ={ Papan Informasi }= <br> PMI Provinsi Jawa Tengah </h1>
+<h2 align="center"> ={ Papan Informasi }= <br> PMI Provinsi Jawa Tengah </h2>
 
 <div align="center"> 
   <img src="./img/v_papaninformasi.png"/>
