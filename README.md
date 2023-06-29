@@ -1,5 +1,6 @@
 <h1 align="center"> ={ Papan Informasi }= <br> PMI Provinsi Jawa Tengah </h1>
 
+<h3 align="center">Deskripsi</h3>
 <p align="center">Digital Signage adalah sebuah papan informasi yang menggunakan teknologi digital yang
 mampu menampilkan konten dalam bentuk gambar atau video dengan memanfaatkan
 teknologi seperti layar LCD, layar LED, wireless presentation, media player, dan lain
